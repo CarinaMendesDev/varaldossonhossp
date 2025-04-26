@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon+Tuesday&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url('../imagens/fundo-nuvens.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #4a90e2;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container-header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menus */
+.menu-esquerda,
+.menu-direita {
+  display: flex;
+  list-style: none;
+}
+
+.menu-esquerda li,
+.menu-direita li {
+  margin: 0 10px;
+}
+
+.menu-esquerda a,
+.menu-direita a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.menu-esquerda a:hover,
+.menu-direita a:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.apresentacao {
+  text-align: center;
+}
+
+.nuvem {
+  
+  margin: 0px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: block;
+  margin: 0px auto;
+  padding: 10px 20px;
+  background-color: #5dade2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #357ABD;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
