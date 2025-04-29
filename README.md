@@ -137,7 +137,7 @@ Este projeto alia **impacto social direto** com a **aplicação prática de conh
 
 ## 📬 Contato
 
-Caso queira entrar em contato com a equipe, envie uma mensagem para qualquer um dos membros pelo GitHub ou pela instituição de ensino.
+Caso queira entrar em contato com a equipe, envie uma mensagem para qualquer um dos membros pelo GitHub.
 
 ---
 
