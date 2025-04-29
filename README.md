@@ -1,4 +1,4 @@
-# -varaldossonhossp 🔗 Acesse o site: [Varal dos Sonhos](https://seunome.github.io/varaldosonhossp/)
+# -varaldossonhossp 🔗 Acesse o site: [Varal dos Sonhos](https://seunome.github.io/varaldosonhossp/](https://carinamendesdev.github.io/varaldossonhossp/)
 
 Este Projeto foi desenvolvido para um grupo de voluntariados
 
