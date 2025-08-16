@@ -73,7 +73,6 @@ main {
 }
 
 .nuvem {
-  
   margin: 0px auto;
   max-width: 100%;
   height: auto;
@@ -102,3 +101,4 @@ footer {
   background: rgba(255, 255, 255, 0.8);
   font-size: 14px;
 }
+
