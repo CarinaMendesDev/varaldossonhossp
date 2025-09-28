@@ -1,5 +1,4 @@
-// airtable.direct.js  (rename to airtable.js para usar no repo)
-// COLAR SEU PERSONAL ACCESS TOKEN AQUI (ex: patj4...)
+// COLAR SEU PERSONAL ACCESS TOKEN AQUI
 const apiKey =  "patj4YJMOCo2eKk5o.544fe3082198705feb14e9668bd92c73c7e39a7c36bdece90ca549298b813a25"; // << seu token completo
 const baseId = "appWObWnrpNMXVv4I";
 const tableNameOrId = "tblwXOoXiIbChDRWN";
@@ -7,9 +6,9 @@ const airtableUrlBase = `https://api.airtable.com/v0/${baseId}/${encodeURICompon
 
 // Listar usuários (paginação)
 async function listarUsuarios() {
-  const container = document.getElementById("usuarios");
-  if (!container) return console.warn("#usuarios não encontrado");
-  container.innerText = "Carregando usuários...";
+  const container = document.getElementById("Usuarios");
+  if (!container) return console.warn("#Usuarios não encontrado");
+  container.innerText = "Carregando Usuários...";
 
   try {
     let allRecords = [];
@@ -71,24 +70,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", async (ev) => {
     ev.preventDefault();
-    const nome = (document.getElementById("nome").value || "").trim();
-    const telefone = (document.getElementById("telefone").value || "").trim();
-    const email = (document.getElementById("email").value || "").trim();
-    const senha = (document.getElementById("senha").value || "").trim();
-    const receber = document.getElementById("receber").checked ? "Sim" : "Não";
+    const Nome = (document.getElementById("Nome").value || "").trim();
+    const Telefone = (document.getElementById("Telefone").value || "").trim();
+    const Email = (document.getElementById("Email").value || "").trim();
+    const Tipo = (document.getElementById("Tipo").value || "").trim();
+    const Senha = (document.getElementById("Senha").value || "").trim();
+    // const receber = document.getElementById("receber").checked ? "Sim" : "Não";
 
-    if (!nome || !email || !senha) {
+    if (!Nome || !Email || !Tipo || !Senha) {
       alert("Por favor preencha Nome, E-mail e Senha.");
       return;
     }
 
     const fields = {
-      Nome: nome,
-      Telefone: telefone,
-      Email: email,
-      Senha: senha,
-      ReceberNotificacoes: receber,
-      Tipo: "Doador"
+      Nome: Nome,
+      // Telefone: telefone,
+      Email: Email,
+      Senha: Senha,
+      // ReceberNotificacoes: receber,
+      // Tipo: "Doador"
+      Senha: Senha,
     };
 
     try {
