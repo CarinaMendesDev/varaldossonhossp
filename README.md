@@ -89,11 +89,11 @@ Este projeto alia **impacto social direto** com a **aplicação prática de conh
 
 ## ⚠️ Riscos Preliminares
 
-- 🔄 Dificuldades técnicas com o banco de dados  
-- ⏱️ Atrasos por complexidade ou limitações técnicas  
-- 🐞 Bugs causados por falta de testes  
-- 😕 Baixo engajamento com login/cadastro  
-- 📉 Instabilidade na hospedagem gratuita  
+- 🔄 Dificuldades técnicas com o banco de dados;
+- ⏱️ Atrasos por complexidade ou limitações técnicas;
+- 🐞 Bugs causados por falta de teste;
+- 😕 Baixo engajamento com login/cadastro;
+- 📉 Instabilidade na hospedagem gratuita.
 
 ---
 
